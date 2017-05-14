@@ -1,0 +1,13 @@
+#footer {
+  background: #efefef;
+  height: 20px;
+  padding: 40px;
+  margin-top: 15px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer a {
+  padding-left: 10px;
+}

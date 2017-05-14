@@ -1,0 +1,15 @@
+#gallery {
+  text-align: center;
+  padding-top: 40px;
+  background: radial-gradient(circle, #eeeeee, #ffffff);
+}
+
+.gallery-image {
+  width: 400px;
+  -webkit-transition: width 1s; /* Safari */
+  transition: width 1s;
+}
+
+.gallery-image:hover {
+  width: 1080px;
+}
