@@ -1,7 +1,18 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
 #gallery {
   text-align: center;
   padding-top: 40px;
   background: radial-gradient(circle, #eeeeee, #ffffff);
+}
+
+#pagination {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .gallery-image {
@@ -12,4 +23,14 @@
 
 .gallery-image:hover {
   width: 1080px;
+}
+
+.round {
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+}
+
+.previous, .next {
+    background-color: #f1f1f1;
+    color: black;
 }

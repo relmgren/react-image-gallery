@@ -12,7 +12,7 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <Photos />,
+  <Photos offset="5" itemsPerPage="5"/>,
   document.getElementById('root-photo')
 );
 
